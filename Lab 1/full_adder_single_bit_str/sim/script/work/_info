@@ -1,0 +1,200 @@
+m255
+K4
+z2
+!s11e vcom 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dS:/CPET-343/Lab 1 (Again!)/toPost/full_adder_single_bit_beh/sim/script
+T_opt
+!s110 1758066579
+VGQo;W2:nWoIXWel9efYBJ3
+Z1 04 28 4 work full_adder_single_bit_str_tb arch 1
+=1-b07b2521b1f8-68c9f793-12-43c8
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2019.2;69
+R0
+T_opt1
+!s110 1758066918
+Vof[i9M<DB`8;zC8inIj6f1
+R1
+=1-b07b2521b1f8-68c9f8e5-209-b7c
+R2
+R3
+n@_opt1
+R4
+T_opt2
+!s110 1757958990
+VTd_=IKOW772_:`DZ21z4=1
+R1
+=1-b07b2521b1c1-68c8534e-15c-23ac
+R2
+R3
+n@_opt2
+R4
+R0
+Efull_adder_single_bit_beh
+Z5 w1757364652
+Z6 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z9 8../../src/full_adder_single_bit_beh.vhd
+Z10 F../../src/full_adder_single_bit_beh.vhd
+l0
+L9
+V4o<hYkYP4a[gimD3_d=1I1
+!s100 ONICbP@SN@L6DW3KORA<X3
+Z11 OL;C;2019.2;69
+31
+Z12 !s110 1757945716
+!i10b 1
+Z13 !s108 1757945716.000000
+Z14 !s90 -reportprogress|300|-93|-work|work|../../src/full_adder_single_bit_beh.vhd|
+Z15 !s107 ../../src/full_adder_single_bit_beh.vhd|
+!i113 0
+Z16 o-93 -work work
+Z17 tExplicit 1 CvgOpt 0
+Abeh
+R6
+R7
+R8
+DEx4 work 25 full_adder_single_bit_beh 0 22 4o<hYkYP4a[gimD3_d=1I1
+l26
+L19
+VWGeGedNZcKlNgPQRbJe;`1
+!s100 H^NTDAR0hTDK>LQ??:BWC1
+R11
+31
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Efull_adder_single_bit_beh_tb
+Z18 w1757364863
+R7
+R8
+R0
+Z19 8../src/full_adder_single_bit_beh_tb.vhd
+Z20 F../src/full_adder_single_bit_beh_tb.vhd
+l0
+L8
+VR39eAB0`GfW:9BRV2[LTL2
+!s100 Q[@[NL[Bg@NUI4ZQ^zW@H2
+R11
+31
+R12
+!i10b 1
+R13
+Z21 !s90 -reportprogress|300|-93|-work|work|../src/full_adder_single_bit_beh_tb.vhd|
+Z22 !s107 ../src/full_adder_single_bit_beh_tb.vhd|
+!i113 0
+R16
+R17
+Aarch
+R7
+R8
+DEx4 work 28 full_adder_single_bit_beh_tb 0 22 R39eAB0`GfW:9BRV2[LTL2
+l29
+L11
+VU:Bd@7K[UfD^816e8e[B02
+!s100 AWVb]NK;V6==F9K?eUcLZ0
+R11
+31
+R12
+!i10b 1
+R13
+R21
+R22
+!i113 0
+R16
+R17
+Efull_adder_single_bit_str
+Z23 w1758066555
+R6
+R7
+R8
+Z24 dS:/CPET-343/Lab 1/full_adder_single_bit_str/sim/script
+Z25 8../../src/full_adder_single_bit_str.vhd
+Z26 F../../src/full_adder_single_bit_str.vhd
+l0
+L9
+VgF@lH<NM>^LJ@SR13A>Gj1
+!s100 0LePJKJEHeEJIA<dhb`V=1
+R11
+31
+Z27 !s110 1758066916
+!i10b 1
+Z28 !s108 1758066916.000000
+Z29 !s90 -reportprogress|300|-93|-work|work|../../src/full_adder_single_bit_str.vhd|
+Z30 !s107 ../../src/full_adder_single_bit_str.vhd|
+!i113 0
+R16
+R17
+Astr
+R6
+R7
+R8
+DEx4 work 25 full_adder_single_bit_str 0 22 gF@lH<NM>^LJ@SR13A>Gj1
+l21
+L19
+VP2afKBbSDNE`MT65MPTnS2
+!s100 1oM;i0=@gRPhT;O8TPI[G3
+R11
+31
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R16
+R17
+Efull_adder_single_bit_str_tb
+Z31 w1757963895
+R7
+R8
+R24
+Z32 8../src/full_adder_single_bit_str_tb.vhd
+Z33 F../src/full_adder_single_bit_str_tb.vhd
+l0
+L8
+V5jL@27N?klU:L7:;F2LLP2
+!s100 [>N`_ZjcPb6gV34XKbAaU0
+R11
+31
+R27
+!i10b 1
+R28
+Z34 !s90 -reportprogress|300|-93|-work|work|../src/full_adder_single_bit_str_tb.vhd|
+Z35 !s107 ../src/full_adder_single_bit_str_tb.vhd|
+!i113 0
+R16
+R17
+Aarch
+R7
+R8
+DEx4 work 28 full_adder_single_bit_str_tb 0 22 5jL@27N?klU:L7:;F2LLP2
+l29
+L11
+VO]fBfIMh>0Jk<fNhN[AcF1
+!s100 nj<<O_i^0YGF0o]WX;4ez0
+R11
+31
+R27
+!i10b 1
+R28
+R34
+R35
+!i113 0
+R16
+R17

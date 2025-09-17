@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+-- Dr. Kaputa
+-- single bit full adder [behavioral]
+-------------------------------------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;     
+use ieee.numeric_std.all;      
+
+entity full_adder_single_bit_str is 
+  port (
+    a       : in std_logic;
+    b       : in std_logic;
+    cin     : in std_logic;
+    sum     : out std_logic;
+    cout    : out std_logic
+  );
+end full_adder_single_bit_beh;
+
+architecture str of full_adder_single_bit_str is
+
+	signal xor1_out, and1_out, and2_out, and3_out : STD_LOGIC;
+
+	component XOR2
+		Port (a, b : in STD_LOGIC; 
+			y : out STD_LOGIC );
+	end component;
+
+	component AND2
+		Port (a, b : in STD_LOGIC; 
+			y : out STD_LOGIC );
+	end component;
+
+	component OR3
+		Port (a, b, c: in STD_LOGIC; 
+			y : out STD_LOGIC );
+	end component;
+
+begin
+ 	XOR1 : XOR2 port map(a => a, b=>b, y=>xor1_out);
+	XOR2 : XOR2 port map(a => xor1_out, b => cin, y => sum);
+
+	AND1 : AND2 port map(a => a, b=>b, y => and1_out);
+	AND2 : AND2 port map(a => b, b=>cin, y => and2_out);
+	AND3 : AND2 port map(a =>a, b=>cin, y=> and3_out);
+
+	OR1 : OR3 port map(a => and1_out, b => and2_out, c => and3_out, y => cout);
+end str; 
